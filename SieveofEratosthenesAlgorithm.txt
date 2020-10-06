@@ -1,0 +1,15 @@
+Sieve of Eratosthenes algorithm is an efficient algorithm to find prime numbers upto N.
+It's running time is O(n(log(log(n))))
+
+The algorithm is as follows:
+1)Initialize boolean arr[n] with True
+2) Set arr[0] & arr[1] to False
+3) from i = 2 to sqrt(n):
+          if (arr[i] == True):
+              from j = i * i to n:
+                  arr[j] = False
+                  j = j + i
+              i ++
+4)while arr[j] == True
+            print(arr[j])
+              j ++             
