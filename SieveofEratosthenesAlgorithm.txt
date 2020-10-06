@@ -1,4 +1,4 @@
-Sieve of Eratosthenes algorithm is an efficient algorithm to find prime numbers upto N.
+Sieve of Eratosthenes algorithm is an efficient algorithm to find prime numbers upto n.
 It's running time is O(n(log(log(n))))
 
 The algorithm is as follows:
